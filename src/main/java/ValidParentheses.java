@@ -14,7 +14,7 @@ public class ValidParentheses {
                 characters.pop(); // remove the stack if the char is present int eh array
             }
             else if(c == ')' && characters.isEmpty() ){ // check is the stack is empty
-                return false; // return false
+                return false;
 
             }
 
