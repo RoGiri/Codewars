@@ -17,11 +17,9 @@ public class ValidParentheses {
                 return false; // return false
 
             }
-            else {
-                continue; // continue to the next char  if the its not the '(' and ')'
+
             }
 
-        }
         return characters.isEmpty();
     }
 
