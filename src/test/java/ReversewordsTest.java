@@ -4,10 +4,6 @@ import static org.junit.Assert.assertEquals;
 
 public class ReversewordsTest {
 
-
-
-
-
         @Test
         public void exampleCases() {
             assertEquals("ehT kciuq nworb xof spmuj revo eht yzal .god", Reversewords.reverseWords("The quick brown fox jumps over the lazy dog."));
